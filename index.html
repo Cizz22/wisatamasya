@@ -43,16 +43,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#intro">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Design Process</a>
+                        <a class="nav-link" href="#design">Design Process</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Prototype</a>
+                        <a class="nav-link" href="#proto">Prototype</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +82,7 @@
 
         <main id="main">
 
-            <section class="intro" data-aos="fade-up" data-aos-duration="1500">
+            <section id="intro" class="intro" data-aos="fade-up" data-aos-duration="1500">
                 <div class="container d-flex flex-column align-items-center">
                     <div class="row">
                         <h1 class="section-title">About Us</h1>
@@ -98,94 +98,96 @@
                 </div>
             </section>
 
-            <section class="sharing" id="sharing">
+            <section class="sharing">
                 <div class="container">
-                    <div class="row" data-aos="fade-up" data-aos-duration="1500">
-                        <h1 class="text-center section-title">Our Team</h1>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-duration="1500">
-                        <div class="text-center col-lg zoom-hover">
-                            <img src="{{ asset('img/png/atiatul-muqtadir.png') }}" class="py-2" height="175px"
-                                alt="atiatul-muqtadir">
-                            <h4>Rafi <br></h4>
-                            <p>NRP</p>
+                    <section id="team">
+                        <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                            <h1 class="text-center section-title">Our Team</h1>
                         </div>
-                        <div class="text-center col-lg">
-                            <img src="{{ asset('img/png/sherly-annavita.png') }}" class="py-2" height="175px" alt="">
-                            <h4>Ega</h4>
-                            <p>NRPr</p>
+                        <div class="row" id="team" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="text-center col-lg zoom-hover">
+                                <img src="img/svg/logo.png" class="py-2" height="175px" alt="atiatul-muqtadir">
+                                <h4>Mohamad Rafi Irfansyah<br></h4>
+                                <p>5026201099</p>
+                            </div>
+                            <div class="text-center col-lg">
+                                <img src="img/svg/logo.png" class="py-2" height="175px" alt="">
+                                <h4>Ega Fernanada</h4>
+                                <p>5026201073</p>
+                            </div>
+                            <div class="text-center col-lg">
+                                <img src="img/svg/logo.png" class="py-2" height="175px" alt="">
+                                <h4>Muhammad Armando Nur Rizqy</h4>
+                                <p>5026201140</p>
+                            </div>
+                            <div class="text-center col-lg">
+                                <img src="img/svg/logo.png" class="py-2" height="175px" alt="">
+                                <h4>Aulia Cisatra</h4>
+                                <p>5026201124</p>
+                            </div>
                         </div>
-                        <div class="text-center col-lg">
-                            <img src="{{ asset('img/png/ganjar-pranowo.png') }}" class="py-2" height="175px" alt="">
-                            <h4>Armando</h4>
-                            <p>NRP</p>
-                        </div>
-                        <div class="text-center col-lg">
-                            <img src="{{ asset('img/png/idza-priyanti.png') }}" class="py-2" height="175px" alt="">
-                            <h4>Atra</h4>
-                            <p>NRP</p>
-                        </div>
-                    </div>
+                    </section>
 
-                    <div class="row" data-aos="fade-up" data-aos-duration="1500">
-                        <h1 class="text-center section-title">Design Process</h1>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-duration="1500">
-                        <div class="text-center col-lg" data-aos="fade-right" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/dekade-band.png') }}" class="py-2" height="175px"
-                                alt="dekade-band">
-                            <h4>NeedFinding</h4>
+                    <section id="design">
+                        <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                            <h1 class="text-center section-title">Design Process</h1>
                         </div>
-                        <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/standup-bumiayu.png') }}" class="py-2" height="175px"
-                                alt="standup-bumiayu">
-                            <h4>Pov & Experience Prototype</h4>
-                            <p>Stand Up</p>
+                        <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="text-center col-lg" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px" alt="dekade-band">
+                                <h4>NeedFinding</h4>
+                            </div>
+                            <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="standup-bumiayu">
+                                <h4>Pov & Experience Prototype</h4>
+                        
+                            </div>
+                            <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="standup-bumiayu">
+                                <h4>Concept Video</h4>
+                             
+                            </div>
+                            <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="standup-bumiayu">
+                                <h4>Low-fi Prototype</h4>
+                              
+                            </div>
                         </div>
-                        <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/standup-bumiayu.png') }}" class="py-2" height="175px"
-                                alt="standup-bumiayu">
-                            <h4>Concept Video</h4>
-                            <p>Stand Up</p>
+                        <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="text-center col-lg" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="dekade-band">
+                                <h4>Medium-fi Prototype</h4>
+                            
+                            </div>
+                            <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="standup-bumiayu">
+                                <h4>Heuristic Evalution</h4>
+                               
+                            </div>
+                            <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="standup-bumiayu">
+                                <h4>Hi-Fi Prototype</h4>
+                              
+                            </div>
+                            <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
+                                <img src="img/svg/logo.png" class="py-2" height="175px"
+                                    alt="standup-bumiayu">
+                                <h4>Poster & Pitch</h4>
+                                
+                            </div>
                         </div>
-                        <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/standup-bumiayu.png') }}" class="py-2" height="175px"
-                                alt="standup-bumiayu">
-                            <h4>Low-fi Prototype</h4>
-                            <p>Stand Up</p>
-                        </div>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-duration="1500">
-                        <div class="text-center col-lg" data-aos="fade-right" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/dekade-band.png') }}" class="py-2" height="175px"
-                                alt="dekade-band">
-                            <h4>Medium-fi Prototype</h4>
-                            <p>Musik</p>
-                        </div>
-                        <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/standup-bumiayu.png') }}" class="py-2" height="175px"
-                                alt="standup-bumiayu">
-                            <h4>Heuristic Evalution</h4>
-                            <p>Stand Up</p>
-                        </div>
-                        <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/standup-bumiayu.png') }}" class="py-2" height="175px"
-                                alt="standup-bumiayu">
-                            <h4>Hi-Fi Prototype</h4>
-                            <p>Stand Up</p>
-                        </div>
-                        <div class="text-center col-lg" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="{{ asset('img/png/standup-bumiayu.png') }}" class="py-2" height="175px"
-                                alt="standup-bumiayu">
-                            <h4>Poster & Pitch</h4>
-                            <p>Stand Up</p>
-                        </div>
-                    </div>
+                    </section>
                 </div>
             </section>
 
 
-            <section class="form-daftar">
+            <section id="proto" class="form-daftar mt-5">
                 <div class="container">
                     <div class="my-5 row" data-aos="fade-up" data-aos-duration="1500">
                         <div class="col">
