@@ -401,3 +401,11 @@ header h1 {
     .pesan button:active, .pesan-mobile button:active{
       transform: scale(1.025);
     }
+
+    .design{
+        transition: 0.2s;
+    }
+
+    .design:hover{
+        transform: scale(1.05);
+    }
